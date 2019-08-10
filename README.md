@@ -46,7 +46,39 @@ You can visit http://54.174.92.92/ for the website deployed.
   4. Create SSH key pair for grader using ssh-keygen
   5. On local machine
     ssh-keygen/Users/trantos/.ssh/grader_keycat ~/.ssh/grader_key.pub (copy content) and should look like something like this:
-    ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCnMREuq+qla5KzAlFmlBhOtTsRxDhQIfVKtALP2saOj8YAzi1Y9Au3z9RQCBs3KiObehCnP+qPBk9OBzZOR4diEudFLsLvPIgnG7dgP2njLtfeZE5KHooT1LT/4SpHTV4vUVCqdpunIhkpkcX9NgD4nObnvoDbaCwnc/2Cxz1xWB5fMrHddH/Urjsm297HpnXfoKeYA2+ji3Uuu1pxzvj7hIgp/Ckzd6QEZH5jKeI24vyXuOSkf8QIcVut2MA8zQHcmxXUFiEqfPDEZSlKgnn06GAYxwdEolf57Wa/V+A6jv7RVVcmhXK3+cspPXm1Dx6GtM0CE6VnxSeAS81raR2T trantos@Kendalls-MBP.lan
+    ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDCDjr8BncD2yk8JBBT6BdsmzQKwgfjb836pWeysVC+esNFZSBa6EjDmlHLjfOgE6HcXWhQn+Tap+NkCp9Rp4u7dF0JopEYsYIPJqiRcrvV9cP77ct8hIaWpIQeRiv8qYlD2Ct4aPCbbRCFKuP0Ozjhcd+u06hlqSkic99+HD87GbuTW2ZIDyetYaHmdUAwQZ6EO3ITEQqBf8EYPbF9OHpz/7I8kkbE5N2Q6N9/IDv8d3dLP/w5m8wR8qxilcq7A1I7J3a1EoaTaLR60mVvq2mzkAx6WtjkeFxb6H8/fSnfj9Kxnu6PcpNYHH/fyONUxVll0uW/WsW1daPIyaf2qJxX trantos@Kendalls-MacBook-Pro.local
+
+    a. Corresponding Server Side Private Key is below:
+                -----BEGIN OPENSSH PRIVATE KEY-----
+            b3BlbnNzaC1rZXktdjEAAAAACmFlczI1Ni1jdHIAAAAGYmNyeXB0AAAAGAAAABCdELONLk
+            +6gsmQaGsg7FZNAAAAEAAAAAEAAAEXAAAAB3NzaC1yc2EAAAADAQABAAABAQDCDjr8BncD
+            2yk8JBBT6BdsmzQKwgfjb836pWeysVC+esNFZSBa6EjDmlHLjfOgE6HcXWhQn+Tap+NkCp
+            9Rp4u7dF0JopEYsYIPJqiRcrvV9cP77ct8hIaWpIQeRiv8qYlD2Ct4aPCbbRCFKuP0Ozjh
+            cd+u06hlqSkic99+HD87GbuTW2ZIDyetYaHmdUAwQZ6EO3ITEQqBf8EYPbF9OHpz/7I8kk
+            bE5N2Q6N9/IDv8d3dLP/w5m8wR8qxilcq7A1I7J3a1EoaTaLR60mVvq2mzkAx6WtjkeFxb
+            6H8/fSnfj9Kxnu6PcpNYHH/fyONUxVll0uW/WsW1daPIyaf2qJxXAAAD4DAy/yKGHyeuF/
+            J0GDMyMjZZJ0F17Sh4C/KIEu60snJM5a3GIhheI6OWQfpyABnPMX7zsrJIQfPxpWhq73Nk
+            FZABC4nboaVE88vB3qvo9sjhiK9EQkp2i98tqYON4wnIfxKHlBfG1BZQTfEMWDFbMYUBQp
+            H+kUb2sDc6+7E4dVp728iGfRs0Dd9R/AHPiiWZBZEXQmxqCUwZ9VCPLHduBuGjAWeZPx6y
+            HtQB1r4eRSAJAx0OLzUKmXH/QQ5SWW78ruwmUs4z9lbIhE6KmvU8VkGpzEszS7OgkZS77L
+            eWx+ZOxBnakncCe7wYTP19utirXxafKjEyJDo5bXQfpWIeBhQm+pS5FlVEdzjF7o9XPAfv
+            NUOMbeJAEE/KUvBpbn4d9u9/pxHQHVYUMYdtE12UOoR6+KthUbDa97lkdwk3uXwJOG6y46
+            Ri0TvzqBYmvjhABdrqBSGtAhWxmK09nAA9aVvHZXy+ac0SH77LkPaTThfZxDHhTkSSYG3e
+            PvgAPPvBKQm+hpWsgUmNkEwqR9yCpdAJ47WlYFIHF4z4E3c8eeTcs6d8XHjFM7AER+G0sE
+            HbBayRd80Y6kXkiDVaZLARk1tTCifkuhJ6DkEt9QnGU0Jr8MopIVC4D4G9Pz8SEXSKGYrF
+            WVajVEr4bBKRMuDzj9Yv8JHKaXMlYb1Q2VxS3+lV0fC7oeSZGfGolVYpuBbeinCR7vUZC/
+            PrUjSMj0JT2YktAkjbIDuYOjfzfW2+7jzNhOI3I4J3u0GFkPElr4udYjy4+NC2fBH1PLix
+            JEQBPwuK0QHR7WxNgiMO4pGIkTo1HYeQb/ujzFWHYiii53AjyZWtK6N9CrNCZN612z6OrO
+            weE9QOyBY7mb/Z7eEx3+RACjg9R+4co7WKsT69ybQvvTRDZaTN9+ex8h6bpwNjsgKqZbeJ
+            RDlqYM2OFfbmsDBZxPSHwhFSroK+tbShjkuPYYzoOthcL9MrVVhKEkRsfhcTQMuhdvRAIC
+            PR1MSM3MP1HkOCH/VBYabqDGqSjM2KV4/sXZ2uKMVx0dzPItm2MR5gIXm3THFxH7990kwk
+            MzFUhGDL5cmp5GdUruJ5T0qj9OmeNvDGOR9eMrwh9fiB7gjBdyLzKQMGq2Zk+0tmSHBv2c
+            3wF08cmxy/qYO4/sEqkqZNt20rKU07rdHI7jU9KySZNorAbmFAmysy682tBrSsiJWBDAee
+            qjxQNx1AqUiFSCEYLW4ecSwVM0Yh9DH04YRw5qQYjSaMWuDMQMCpezym+qzBGac7hFTjdm
+            xhwxbon8T7cglcFHWXx7OcdcixMqJfFRFdzt79N4fEJawjTDDM
+            -----END OPENSSH PRIVATE KEY-----
+
+
   6. On grader’s virtual machine (su - grader):
   7. mkdir .ssh
   8. sudo nano ~/.ssh/authorized_keys (paste content)
