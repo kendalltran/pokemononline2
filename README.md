@@ -1,4 +1,16 @@
 
+## Linux Server Configuration
+This is the final project for Udacity's Full Stack Web Developer Nanodegree.
+
+This page explains how to secure and set up a Linux distribution on a virtual machine, install and configure a web and database server to host a web application.
+
+The Linux distribution is Ubuntu 16.04 LTS.
+The virtual private server is Amazon Lighsail.
+The web application is my Item Catalog project created earlier in this Nanodegree program.
+The database server is PostgreSQL.
+
+You can visit http://54.174.92.92/ for the website deployed.
+
 ## Step 1: Start a new Ubuntu Linux server instance on Amazon LightsailLogin into Amazon Lightsail using an Amazon Web Services account.
   1. Once you are login into the site, click Create instance.Choose Linux/Unix platform, OS Only and Ubuntu 16.04 LTS.
   2. Choose a instance plan (I took the cheapest, $5/month).Keep the default name provided by AWS or rename your instance.Click the Create button to create the instance.Wait for the instance to start up.
