@@ -20,7 +20,7 @@ You can visit http://54.174.92.92/ for the website deployed.
   3. In your terminal, type: chmod 600 ~/.ssh/lightsail_key.rsa (gives owner (1) read (2) write (3) no execute
   4. To connect to the instance via the terminal: ssh -i ~/.ssh/lightsail_key.rsa ubuntu@54.174.92.92, where 54.174.92.92 is the public IP address of the instance.
 ## Step 3: Update and upgrade installed packages
-  1. sudo apt-get updatesudo apt-get upgrade
+  1. sudo apt-get update && sudo apt-get upgrade
 ## Step 4: Change the SSH port from 22 to 2200
   1. Edit the /etc/ssh/sshd_config file: sudo nano /etc/ssh/sshd_config.
   2. Change the port number on line 5 from 22 to 2200. Save and exit using CTRL+X and confirm with Y.
